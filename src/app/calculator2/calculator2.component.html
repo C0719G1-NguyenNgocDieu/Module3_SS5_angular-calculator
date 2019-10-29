@@ -1,0 +1,13 @@
+<h1>Awesome Calculator</h1>
+<input type="number" (change)="changeFirst($event.target.value)">
+<select (change)="changeOperation($event.target.value)">
+  <option value="+">+</option>
+  <option value="-">-</option>
+  <option value="*">x</option>
+  <option value="/">:</option>
+</select>
+<input type="number" (change)="changeSecond($event.target.value)">
+<br>
+<input type="submit" (click)="calculator()" value="Ket qua">
+<p>Result: {{output}}</p>
+

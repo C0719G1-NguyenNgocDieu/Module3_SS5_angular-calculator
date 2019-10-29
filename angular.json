@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-caculator",
+            "outputPath": "dist/angular-calculator",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,11 +63,11 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-caculator:build"
+            "browserTarget": "angular-calculator:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-caculator:build:production"
+              "browserTarget": "angular-calculator:build:production"
             }
           }
         },
